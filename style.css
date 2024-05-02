@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	background-color: #fbfbfb;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.main-wrapper {
+	position: relative;
+}
+
+.header-wrapper {
+	padding: 20px 0;
+	grid-column-gap: 160px;
+	grid-row-gap: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.logo {
+	min-width: 186px;
+}
+
+.nav-item {
+	margin-right: 36px;
+}
+
+.nav-link {
+	color: #585858;
+	font-size: 16px;
+	line-height: 1.76;
+	text-decoration: none;
+	transition: color 0.3s;
+	display: block;
+	float: left;
+	cursor: pointer;
+}
+
+.nav-link:hover {
+	color: #43ba7f;
+}
+
+.header-btn {
+	padding: 25px 32px;
+	color: #fff;
+	background-color: transparent;
+	font-size: 18px;
+	text-decoration: none;
+	transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+	border: 1px solid #fff;
+	border-radius: 40px;
+	font-weight: 500;
+}
+
+.section-bg {
+	display: block;
+	width: 30%;
+	height: 578px;
+	background-color: #43ba7f;
+	border-bottom-left-radius: 500px;
+	position: absolute;
+	top: 0%;
+	bottom: auto;
+	left: auto;
+	right: 0%;
+	z-index: -1;
+}
+
+.health-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.health-title {
+	max-width: 400px;
+	margin-bottom: 20px;
+	font-size: 56px;
+	font-weight: 600;
+}
+
+.health-title-span {
+	color: #43ba7f;
+}
+
+.health-text {
+	margin-bottom: 30px;
+	max-width: 438px;
+	font-size: 16px;
+}
+
+.health-button-wrapper {
+	margin: 30px 0;
+	display: inline-block;
+}
+
+.health-btn {
+	margin-bottom: 30px;
+	padding: 25px 32px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	background: #43ba7f;
+	border-radius: 40px;
+}
+
+.health-right img {
+	width: 460px;
+}
+
+.dropdown-search {
+	padding: 12px 15px;
+	margin-top: 40px;
+	max-width: 480px;
+	border-radius: 1px solid #fbfbfb;
+	background-color: #fff;
+	box-shadow: 0 16px 50px rgba(0, 0, 0, 0.03);
+	border-radius: 16px;
+}
+.dropdown-wrapper {
+	padding: 12px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.location-block {
+	display: flex;
+	align-items: center;
+}
+.doctor-block {
+	display: flex;
+	align-items: center;
+}
+
+.dropdown-wrapper select {
+	padding: 0 12px;
+	font-size: 16px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+}
+
+.lc-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: #ebf3fe;
+	border-radius: 50%;
+}
+
+.dr-icon {
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background-color: #fff0f0;
+	border-radius: 50%;
+}
+
+.search-block {
+	margin-left: 10px;
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 56px;
+	height: 56px;
+	background-color: #43ba7f;
+	border-radius: 12px;
+}
+
+.fa-solid {
+	color: #fff;
+	font-size: 20px;
+	padding: 12px;
+	cursor: pointer;
+}
+
+/* =========SERVICE SECTION============= */
+
+.service-wrapper {
+	padding: 120px 0 50px;
+}
+
+.service-heading {
+	text-align: center;
+}
+
+.service-text {
+	width: 100px;
+	margin: 0 auto;
+	padding: 4px 16px;
+	border-radius: 18px;
+	background-color: #ecf8f2;
+}
+
+.service-text p {
+	font-size: 18px;
+	color: #238f5a;
+	font-weight: 500;
+}
+
+.service-title {
+	margin: 0 auto;
+	max-width: 480px;
+	font-size: 38px;
+	margin-top: 18px;
+	font-weight: 600;
+}
+
+.service-list {
+	margin-top: 40px;
+	padding: 40px 0 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.service-item {
+	padding: 26px 20px 14px;
+	width: 364px;
+	text-align: center;
+	border-radius: 16px;
+	border: 1px solid rgba(88, 88, 88, 0.2);
+	box-shadow: 4px 8px 30px rgba(0, 0, 0, 0.08);
+	background-color: white;
+}
+
+.gynecology-img {
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ebf3fe;
+	border-radius: 50%;
+}
+
+.gynecology-link {
+	text-decoration: none;
+}
+
+.gynecology-title {
+	margin-top: 20px;
+	color: black;
+	font-size: 24px;
+	color: #193126;
+	font-weight: 500;
+}
+
+.gynecology-text {
+	margin: 12px 0 20px;
+	font-size: 16px;
+	line-height: 1.76;
+	color: #585858;
+}
+
+.service-item-link {
+	text-decoration: none;
+	color: #585858;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.76;
+}
+
+.pediatrics-img {
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ecf8ec;
+	border-radius: 50%;
+}
+
+.pediatrics-link {
+	text-decoration: none;
+}
+
+.pediatrics-title {
+	margin-top: 20px;
+	color: black;
+	font-size: 24px;
+	color: #193126;
+	font-weight: 500;
+}
+
+.pediatrics-text {
+	margin: 12px 0 20px;
+	font-size: 16px;
+	line-height: 1.76;
+	color: #585858;
+}
+
+.ophthalmology-img {
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fef0f0;
+	border-radius: 50%;
+}
+
+.ophthalmology-link {
+	text-decoration: none;
+}
+
+.ophthalmology-title {
+	margin-top: 20px;
+	color: black;
+	font-size: 24px;
+	color: #193126;
+	font-weight: 500;
+}
+
+.ophthalmology-text {
+	margin: 12px 0 20px;
+	font-size: 16px;
+	line-height: 1.76;
+	color: #585858;
+}
+
+/* ==================== ABOUT SECTION ==================== */
+
+.about-wrapper {
+	padding: 0 0 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about-fixed {
+	color: #238f5a;
+	background-color: rgba(67, 186, 127, 0.1);
+	border-radius: 18.5px;
+	padding: 4px 16px;
+	font-size: 16px;
+	line-height: 1.76;
+	display: inline-block;
+}
+
+.about-title {
+	max-width: 379px;
+	margin: 18px 0 15px;
+	font-size: 38px;
+	color: #193126;
+}
+
+.about-text {
+	margin: 0 0 12px;
+	max-width: 471px;
+	font-size: 18px;
+	color: #585858;
+	font-weight: 400;
+}
+
+.about-statistics {
+	display: grid;
+	margin-top: 30px;
+	max-width: 420px;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	grid-template-rows: auto auto;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-columns: 1fr;
+}
+
+.about-statistics-item {
+	border-style: solid;
+	border-width: 0 0 0 3px;
+	border-color: black black black #43ba7f;
+	background-color: var(--white);
+	border-radius: 10px;
+	max-width: 190px;
+	padding: 10px 20px 10px 30px;
+	box-shadow: 4px 8px 30px rgba(20, 88, 168, 0.07);
+}
+
+.about-statistics-num {
+	font-size: 26px;
+	color: #333;
+	font-weight: 500;
+}
+
+.about-statistics-text {
+	color: #585858;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.8;
+}
+
+.about-link {
+	display: inline-block;
+	margin-top: 50px;
+	padding: 25px 32px;
+	border: 1px solid #43ba7f;
+	background-color: transparent;
+	color: #43ba7f;
+	border-radius: 40px;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1;
+	text-decoration: none;
+	transition: all ease 0.3s;
+}
+
+.about-link:hover {
+	border-color: #193126;
+	background-color: #193126;
+	color: white;
+}
+
+.about-banner{
+	position: relative;
+}
+
+.about-banner-one{
+	position: absolute;
+	top: -160px;
+	left: -165px;
+	border-radius: 20px 20px 20px 360px;
+	width: 565px;
+	height: 691px;
+	background-color: #43ba7f;
+}
+
+.about-banner-one img {
+	max-width: 100%;
+	border-bottom-left-radius: 360px;
+}
+
+.about-banner-two{
+	position: relative;
+	max-width: 400px;
+	border: 11px solid white;
+	background-color: white;
+	display: inline-block;
+	border-radius: 197px 13px 13px;
+	top: auto;
+	bottom: -220px;
+	left: -345px;
+	right: auto;
+}
+
+.about-banner-two img {
+	max-width: 100%;
+	object-fit: cover;
+	transform-style: preserve-3d;
+	border-radius: 13px;
+	transform: rotateX(0) rotateY(180deg) rotateZ(0);
+	border-radius: 13px;
+	border-top-right-radius: 197px;
+}
